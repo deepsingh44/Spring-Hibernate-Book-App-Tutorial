@@ -5,7 +5,7 @@
 </head>
 <div class="container">
 	<br>
-	<div class="card" style="padding: 10px;">
+	<div class="card" style="padding: 10px;background-image: url('<spring:url value="/images/background.png"/>');">
 		<div class="row" style="height: 500px;">
 			<div class="col-sm-5">
 				<div>

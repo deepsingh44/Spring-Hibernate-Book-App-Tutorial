@@ -3,7 +3,7 @@
 <%@include file="head.jsp"%>
 <div class="container">
 	<br>
-	<div class="card" style="padding: 10px;">
+	<div class="card" style="padding: 10px;background-image: url('<spring:url value="/images/background.png"/>');">
 		<div class="row" style="height: 500px;">
 			<div class="col-sm-1"></div>
 			<div class="col-sm-10">
@@ -12,10 +12,11 @@
 
 						<div align="center">
 							<img src="<spring:url value="/images/no_books.jpg"/>" width="300"
-								height="300px">
+								height="300px" style="border-radius: 10px;">
 						</div>
 						<div align="center">
-							<h1>NO BOOKS AVAILABLE</h1>
+						<br>
+							<h1 style="color: white;font-family: serif;">NO BOOKS AVAILABLE</h1>
 						</div>
 					</p:when>
 
