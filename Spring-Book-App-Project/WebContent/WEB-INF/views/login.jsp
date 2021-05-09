@@ -18,18 +18,18 @@
 
 			<div class="col-sm-6">
 				<br>
-				<h2 align="center">Login Details</h2>
+				<h2 align="center" style="color: white;">Login Details</h2>
 				<hr>
 				<div class="form-group">
-					<label for="email">Email address:</label> <input type="email"
+					<label for="email" style="color: white;">Email address:</label> <input type="email"
 						class="form-control" placeholder="Enter email" id="email">
 				</div>
 				<div class="form-group">
-					<label for="pwd">Password:</label> <input type="password"
+					<label for="pwd" style="color: white;">Password:</label> <input type="password"
 						class="form-control" placeholder="Enter password" id="pwd">
 				</div>
 				<div class="form-group form-check">
-					<label class="form-check-label"> <input
+					<label class="form-check-label" style="color: white;"> <input
 						class="form-check-input" type="checkbox"> Remember me
 					</label>
 				</div>

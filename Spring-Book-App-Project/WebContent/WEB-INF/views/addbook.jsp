@@ -20,28 +20,28 @@
 
 			<div class="col-sm-6">
 				<br>
-				<h2 align="center">Add Book</h2>
+				<h2 align="center" style="color: white;">Add Book</h2>
 				<hr>
 
 				<div class="form-group">
-					<label for="name">Book Name:</label> <input type="text"
+					<label for="name" style="color: white;">Book Name:</label> <input type="text"
 						class="form-control" placeholder="Enter Book Name" id="name">
 				</div>
 				<div class="form-group">
-					<label for="price">Book Price:</label> <input type="number"
+					<label for="price" style="color: white;">Book Price:</label> <input type="number"
 						class="form-control" placeholder="Enter Book Price" id="price">
 				</div>
 				<div class="form-group">
-					<label for="author">Book Author:</label> <input type="text"
+					<label for="author" style="color: white;">Book Author:</label> <input type="text"
 						class="form-control" placeholder="Enter Book Author" id="author">
 				</div>
 				<div class="form-group">
-					<label for="date">Book Date:</label> <input type="date"
+					<label for="date" style="color: white;">Book Date:</label> <input type="date"
 						class="form-control" placeholder="Select Book Date" id="date">
 				</div>
 
 				<div class="form-group">
-					<label for="category">Select Category:</label> <select
+					<label for="category" style="color: white;">Select Category:</label> <select
 						class="form-control" id="category">
 						<option>Select Category</option>
 						<option>Education</option>
