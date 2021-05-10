@@ -34,4 +34,9 @@ public class BookDao {
 		List<Book> books = q.getResultList();
 		return books;
 	}
+	
+	public Book findBookById(int id) {
+		Book book=sessionFactory.getCurrentSession().get(Book.class, id);
+		return book;
+	}
 }

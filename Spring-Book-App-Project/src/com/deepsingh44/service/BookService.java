@@ -24,4 +24,9 @@ public class BookService {
 	public List<Book> fetchAllBooks() {
 		return bookDao.fetchAllBooks();
 	}
+	
+	@Transactional
+	public Book findBookById(int id) {
+		return bookDao.findBookById(id);
+	}
 }

@@ -32,5 +32,14 @@ public class BookController {
 		mv.setViewName("booklist");
 		return mv;
 	}
+	
+	@GetMapping("/detail")
+	public ModelAndView detailPage(int id) {
+		Book book=bookService.findBookById(id);
+		ModelAndView mv=new ModelAndView();
+		mv.addObject("book",book);
+		mv.setViewName("detail");
+		return mv;
+	}
 
 }
